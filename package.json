@@ -1,0 +1,19 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-write-stream": "^2.0.0",
+    "csv-writer": "^1.5.0",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.12.2",
+    "tedious": "^6.2.0",
+    "xlsx": "^0.14.4"
+  }
+}
