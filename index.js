@@ -4,7 +4,7 @@ const XLSX = require('xlsx')
 
 
 const csvWriter = createCsvWriter({
-  path: 'file_76001_77000.csv',
+  path: 'excel.file',
   header: [
     { id: 'vin', title: 'vin' },
     { id: 'status', title: 'status'}
@@ -13,10 +13,10 @@ const csvWriter = createCsvWriter({
 
 
 const config = {
-  DB_HOST: 'mxacapp.database.windows.net',
-  DB_NAME: 'mxacapp-db',
-  DB_USER: 'autochilango@mxacapp',
-  DB_PASSWORD: 'MXAC?4uT0Ch1l4ng0'
+  DB_HOST: '',
+  DB_NAME: '',
+  DB_USER: '',
+  DB_PASSWORD: ''
 }
 
 var sequelize
